@@ -1,26 +1,75 @@
 .google{
     display: flex;
     justify-content: center;
-    margin: 150px 0 30px;
+    margin: 50px 0 30px;
 
     &__icon{
         width: 250px;
     }
 }
 
-.container{
-    border: none;
+.section-input{
     display: flex;
     justify-content: center;
+}
+
+.container{
+    width: 530px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 6px 0 #20212447;
+
+    &__icon-search{
+        background-image: url('https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 15px;
+        height: 15px;
+        margin-right: 15px;
+    }
+
+    &__input{
+        border: none;
+        width: 450px;
+        height: 40px;
+        outline: none;
+    }
+
+    &__icon-micro{
+        background-image: url('https://www.nicepng.com/png/detail/20-203315_open-google-microphone-icon.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 15px;
+        height: 18px;
+
+        :hover{
+            cursor: pointer;
+        }
+    }
 }
 
 .buttons{
     display: flex;
     justify-content: center;
-    margin: 15px;
+    margin: 20px;
 
     &__item{
-        padding: 4px;
+        height: 36px;
+        background-color:#f2f2f2 ;
+        border: 0;
+        font-size: 14px;
+        color: #5f6368;
+        border-radius: 5px;
+        padding: 0 15px;
         margin: 10px;
+        :hover{
+            border: 5px solid black ;
+            color: black;
+        }
     }
 }

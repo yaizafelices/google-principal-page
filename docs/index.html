@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
-    <link rel="stylesheet" href="../scss/main.scss" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
   </head>
   <body>
     <header class="header">
@@ -13,12 +14,80 @@
         <ul class="header__nav-ul">
           <li class="header__nav-ul-li"><a href="#">Gmail</a></li>
           <li class="header__nav-ul-li"><a href="#">Imágenes</a></li>
-          <li class="header__nav-ul-li"><a href="#"></a></li>
-          <li class="header__nav-ul-li"><a href="#"></a></li>
+          <li class="header__nav-ul-li-icon"><a href="#"></a></li>
+          <li class="header__nav-ul-li">
+            <a href="#"
+              ><img
+                class="header__nav-ul-li-image"
+                src="https://lh3.googleusercontent.com/ogw/AOh-ky0WYu4jAfD2wNBhgjkJJbU-45JjSVmtDNFviz6V=s32-c-mo"
+                alt="Cuenta de google"
+                title="Cuenta de google"
+            /></a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <main>
+      <section class="google">
+        <img
+          src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png"
+          alt="Icono google"
+          title="Icono google"
+          class="google__icon"
+        />
+      </section>
+      <section class="section-input">
+        <form action="/signup" method="post">
+          <fieldset class="container">
+            <span class="container__icon-search"></span>
+            <input
+              placeholder="Buscar en Google o escribir una URL"
+              type="text"
+              name="search"
+              class="container__input"
+            />
+            <a class="container__icon-micro" href=""></a>
+          </fieldset>
+        </form>
+      </section>
+      <section class="buttons">
+        <button class="buttons__item">Buscar con Google</button>
+        <button class="buttons__item">Voy a tener suerte</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="footer__ul">
+        <li class="footer__ul-li">
+          <a class="footer__ul-li-a" href="">Publicidad</a>
+        </li>
+        <li class="footer__ul-li">
+          <a class="footer__ul-li-a" href="">Empresa</a>
+        </li>
+        <li class="footer__ul-li">
+          <a class="footer__ul-li-a" href="">Cómo funciona la Búsqueda</a>
+        </li>
+      </ul>
+      <ul class="footer__ul">
+        <li class="footer__ul-li">
+          <a class="footer__ul-li-a" href=""
+            >Emisión neutra de carbono desde el 2007</a
+          >
+        </li>
+      </ul>
+      <ul class="footer__ul">
+        <li class="footer__ul-li">
+          <a class="footer__ul-li-a" href="">Privacidad</a>
+        </li>
+        <li class="footer__ul-li">
+          <a class="footer__ul-li-a" href="">Términos</a>
+        </li>
+        <li class="footer__ul-li">
+          <a class="footer__ul-li-a" href="">Configuración</a>
+        </li>
+      </ul>
+    </footer>
+
   </body>
 </html>
